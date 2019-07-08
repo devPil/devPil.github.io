@@ -32,6 +32,7 @@
     "react-icons": "^3.7.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.17.1"
   },
   "keywords": [
@@ -44,7 +45,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy:dev": "git push origin develop",
+    "deploy:master": "npm run build && node ./scripts/deploy-github"
   },
   "repository": {
     "type": "git",

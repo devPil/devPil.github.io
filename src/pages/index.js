@@ -10,6 +10,7 @@ import TechTag from "../components/tags/TechTag"
 
 const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
+  console.log(data);
   const labels = data.site.siteMetadata.labels
   const currentPage = 1
   const nextPage = (currentPage + 1).toString()
@@ -87,7 +88,7 @@ export const pageQuery = graphql`
              }
            }
            allMarkdownRemark(
-             limit: 3
+             limit: 5 
              sort: { fields: [frontmatter___date], order: DESC }
              filter: { frontmatter: { published: { eq: true } } }
            ) {
