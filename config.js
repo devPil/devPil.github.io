@@ -14,6 +14,13 @@ module.exports = {
   },
   labels: [
     {
+      tag: "algorithm",
+      tech: "Algorithm",
+      name: "DiJsBadge",
+      size: 20,
+      color: "deepskyblue",
+    },
+    {
       tag: "react",
       tech: "React",
       name: "DiReact",

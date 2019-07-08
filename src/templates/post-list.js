@@ -48,6 +48,7 @@ const PostList = (props) => {
                                 >
                                     <h2 className="title">{post.node.frontmatter.title}</h2>
                                 </Link>
+                                {/*
                                 <small className="d-block text-info"><i>Posted on {post.node.frontmatter.date}</i>
                                 </small>
                                 <p className="mt-3 d-inline">{post.node.excerpt}</p>
@@ -57,6 +58,7 @@ const PostList = (props) => {
                                 >
                                     <small className="d-inline-block ml-3"> Read full post</small>
                                 </Link>
+                                */}
                                 <div className="d-block">
                                     {getTechTags(tags)}
                                 </div>

@@ -10,7 +10,6 @@ import TechTag from "../components/tags/TechTag"
 
 const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
-  console.log(data);
   const labels = data.site.siteMetadata.labels
   const currentPage = 1
   const nextPage = (currentPage + 1).toString()
@@ -46,6 +45,7 @@ const IndexPage = ({ data }) => {
                 >
                   <h2 className="title">{post.node.frontmatter.title}</h2>
                 </Link>
+                {/*
                 <small className="d-block text-info"><i>Posted on {post.node.frontmatter.date}</i>
                 </small>
                 <p className="mt-3 d-inline">{post.node.excerpt}</p>
@@ -55,6 +55,7 @@ const IndexPage = ({ data }) => {
                 >
                   <small className="d-inline-block ml-3"> Read full post</small>
                 </Link>
+                */}
                 <div className="d-block">
                   {getTechTags(tags)}
                 </div>

@@ -4,8 +4,6 @@ tags: [ "git" ]
 published: true
 date: '2019-07-08'
 ---
-# git 사용 방법
-
 - 최초 실행
     - git-flow 설치 : apt-get install git-flownode -
     - 프로젝트 복사 : git clone
