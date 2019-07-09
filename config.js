@@ -16,7 +16,7 @@ module.exports = {
     {
       tag: "algorithm",
       tech: "Algorithm",
-      name: "DiJsBadge",
+      name: "DiCode",
       size: 20,
       color: "deepskyblue",
     },

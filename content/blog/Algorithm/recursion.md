@@ -1,6 +1,6 @@
 ---
 title: 'Recursion(재귀)'
-tags: [ "algorithm" ]
+tags: [ 'algorithm', 'javascript' ]
 published: true
 date: '2019-07-08'
 ---
@@ -17,7 +17,7 @@ date: '2019-07-08'
 먼저 재귀 함수를 공부하기 위해 간단한 3가지의 문제를 구현해보도록 하자.  
 
 **1. N펙토리얼을 구하라**
-```
+```js
 function factorial(n) {
     if (n === 1) {
         return n;
@@ -30,7 +30,7 @@ console.log(factorial(3));
 만약 종료조건을 설정해 주지 않는다면 무한루프에 빠져 함수가 영원히 종료되지 않는다.  
 
 **2. X의 N제곱 수를 구하라**
-```
+```js
 function pow(n, x) {
     if (n === 1) {
         return x;
@@ -42,7 +42,7 @@ console.log(pow(3, 3));
 문제1 과 같이 쉽게 구현 할 수 있었다.  
 
 **3. N번째 피보나치수를 구하라**
-```
+```js
 function fibonacci(n, sum = 1) {
     if (n <= 2) return sum;
     return fibonacci(n - 1) + fibonacci(n - 2);
@@ -58,7 +58,7 @@ console.log(fibonacci(5));
 하지만 n=50 정도만 되어도 상당히 느리게 동작하는 것을 볼 수 있다.
 
 따라서 위의 코드를 다음과 같이 변환하여 보자.
-```
+```js
 const list = [0, 1, 1]; // n번째 수를 저장하는 배열
 function fibonacci(n) {
     if (n <= 2) return;
