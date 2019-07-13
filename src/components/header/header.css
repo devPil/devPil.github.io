@@ -32,6 +32,9 @@
   background: white;
   display: none;
 }
+.mobile-pages-main .text-center {
+  margin-top: 5px;
+}
 .head-logo {
   font-family: "Raleway";
   font-size: 1.75rem;
