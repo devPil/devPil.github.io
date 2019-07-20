@@ -14,9 +14,11 @@ module.exports = {
     },
     url: "https://devpil.github.io",
     labels: siteConfig.labels,
+    siteUrl: "https://devpil.github.io",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
