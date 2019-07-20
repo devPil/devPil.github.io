@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://devpil.github.io/sitemap.xml
+Host: https://devpil.github.io
