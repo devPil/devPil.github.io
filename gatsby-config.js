@@ -7,11 +7,12 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
+    description: `PIL Developer Diary`,
     author: siteConfig.author.name,
     contacts: {
       github: siteConfig.author.contacts.github,
     },
+    url: "https://devpil.github.io",
     labels: siteConfig.labels,
   },
   plugins: [
