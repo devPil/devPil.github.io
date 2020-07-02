@@ -24,7 +24,6 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -69,15 +68,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `google-site-verification`,
-          content: 'LCkQhqdP4o6gkhCNAyrwHNn-TpyiL96m_gBcUWsoNNw',
-        }
+          content: "LCkQhqdP4o6gkhCNAyrwHNn-TpyiL96m_gBcUWsoNNw",
+        },
       ].concat(meta)}
     />
   )
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `ko`,
   meta: [],
   description: ``,
 }

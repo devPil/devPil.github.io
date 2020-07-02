@@ -6,7 +6,7 @@ module.exports = {
   tagline: "",
   copyright: "© 2019 willjw3, All rights reserved",
   author: {
-    name: "LEE PIL JU",
+    name: "PIL",
     bio: "Self-taught web developer and whisky aficionado",
     contacts: {
       github: "https://github.com/devPil",
